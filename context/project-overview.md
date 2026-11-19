@@ -1,8 +1,8 @@
-# Ghost AI
+# Next App
 
 ## Overview
 
-Ghost AI is a real-time collaborative system design workspace. Users describe a system in plain English, an AI agent maps that system onto a shared canvas, collaborators refine the architecture, and the app generates a technical specification from the resulting graph.
+Next App is a real-time collaborative system design workspace. Users describe a system in plain English, an AI agent maps that system onto a shared canvas, collaborators refine the architecture, and the app generates a technical specification from the resulting graph.
 
 ## Goals
 
@@ -38,7 +38,7 @@ Ghost AI is a real-time collaborative system design workspace. Users describe a 
 
 - Shared real-time canvas using Liveblocks and React Flow.
 - Live cursors, presence indicators, and node/edge editing.
-- Canvas snapshots persisted to the filesystem.
+- Canvas snapshots persisted to Vercel Blob at `canvas/{projectId}.json`, with the blob URL stored in the database (`canvasJsonPath`).
 
 ### Starter System Designs
 
